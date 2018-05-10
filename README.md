@@ -1,4 +1,3 @@
 
 # Assignments
 
-Hello World!
