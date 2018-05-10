@@ -21,7 +21,7 @@ object FibnocciSeries {
   }
 }
 
-# output
+# Output
 0    1    1    2    3    5    8    13    21    34  55
 
 # Multiplication table in scala or for loop
@@ -40,7 +40,7 @@ object MultiplicationTable {
 
 }
 
-# output
+# Output
 5*1=5
 5*2=10
 5*3=15
@@ -52,7 +52,7 @@ object MultiplicationTable {
 5*9=45
 5*10=50
 
-# check whether number is palindrome or not in scala or if else loop.
+# Check whether number is palindrome or not in scala or if else loop.
 object palindromeHW {
   def isPalindrome(n:Int): Unit = {
     if(n.toString.reverse == n.toString)
@@ -67,5 +67,5 @@ object palindromeHW {
 
 }
 
-# output
+# Output
 Not a palindrome
