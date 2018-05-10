@@ -69,3 +69,25 @@ object palindromeHW {
 
 # Output
 Not a palindrome
+
+
+# Star Triangle in scala or for loop
+object StarTriangle {
+  def main(args: Array[String]): Unit = {
+    var row =5;
+    var col =4;
+    for (i <- 1 to row){
+      for (j <- 1 to i){
+        print("*")
+      }
+      println();
+    }
+  }
+}
+
+# Output
+*
+**
+***
+****
+*****
