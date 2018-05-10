@@ -1,0 +1,86 @@
+Assignment-2
+
+# PatterMatch according to data type in scala or swtich case in scala or simplified version of if-else in scala
+
+object PatternMDataType {
+  def main(args: Array[String]): Unit = {
+    var engineering : Any =  'A' //4000.00 //1f //false //4 //"electrical"
+    var result = engineering match {
+      case a : Float => {
+        var student_fee = 90000.00
+        val time = 4
+        var fee_per_year =  (student_fee)/(time)
+        println("  "+ fee_per_year)
+        "4th floor department"
+      }
+      case b : Int => {
+        palindromeHW.isPalindrome(34256)
+        "1st choice"
+      }
+      case c : Double => "Scholarship per student per year "
+      case d : String => " Here I am"
+      case e : Boolean => "True or false electrical engg or not"
+      case _ : Any => "Not on correct path"
+    }
+    println("  " + result )
+  }
+
+}
+
+# Output
+Not on correct path
+
+
+
+  
+object PatternMWvalues {
+  def main(args: Array[String]): Unit = {
+    var department:Any =  "electrical" //false//10f//'e'//6.00//1//"electrical" 
+    var result = department match {
+      case "electrical" => {
+        val x = "ele engg is awesome"
+        println(x.reverse)
+      }
+      case 1 => {
+        for(i <- 10 until 20){
+        println(i)
+        }
+      }
+      case 6.00 => "Can see it double using high power"
+      case 10f => "Ele depart has low voltage also"
+      case 'e' => " Shortcut is ee"
+      case false => "Always right"
+      case _ => "Not anymore"
+    }
+    println(" "+result)
+  }
+  }
+  
+  
+  # Output
+  emosewa si ggne ele
+ ()
+ 
+ 
+ 
+ 
+  
+  # pattern match according to variables
+  
+  object PatternMvar {
+  def main(args: Array[String]): Unit = {
+    var test = 13
+   var result = test match{
+     case 10 => 1.00
+     case 11 => 20
+     case 12 => 3.33
+     case 13 => "rajesh"
+
+    }
+    println(" "+ result)
+  }
+
+}
+
+# output
+rajesh
